@@ -4,8 +4,6 @@ import threading
 import subprocess
 
 
-
-
 class TestAgent(unittest.TestCase):
     def test_return_type(self):
         state = {"alphabet": ["hello", "sun", "world", "space", "moon", "crypto", "sky", "ocean", "universe", "human"]}
